@@ -1,0 +1,15 @@
+.welcome_header{
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
+.toggle_section{
+    background-color: #ece5e5 !important;
+}
+.proceed{
+    background-color: #b22222 !important;
+    padding: 10px 10px 10px 10px !important;
+    color: white !important;
+    text-decoration: none !important;
+}

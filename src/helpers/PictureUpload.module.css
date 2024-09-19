@@ -1,0 +1,17 @@
+/* Add this to your CSS file */
+input[type="file"] {
+    border: 2px solid #b22222;
+    display: inline-block;
+    /* padding: 10px; */
+    cursor: pointer;
+    background-color: #b22222 !important;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  input[type="file"]:hover {
+    background-color: #b22222;
+  }
+
+  
+  

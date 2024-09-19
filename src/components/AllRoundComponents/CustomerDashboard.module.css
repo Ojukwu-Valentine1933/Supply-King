@@ -1,0 +1,53 @@
+.smiler{
+    height: 80px;
+    width: 70px;
+}
+
+.userGreeting{
+    height: 150px;
+    width: 100%;
+    background-color: #cd5c5c;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.history{
+    height: 80px;
+    width: 70px;
+}
+.discount{
+    height: 80px;
+    width: 70px;
+}
+.card_body{
+    background-color: #cd5c5c !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    height: 120px;
+    
+}
+.card{
+    background-color: #cd5c5c !important;
+    padding: 5px 0 10px 0;
+  
+}
+.card_body p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+   
+}
+.categories{
+    height: 100px;
+    width: 100px;
+}
+.pending{
+    height: 100px;
+    width: 130px;
+}

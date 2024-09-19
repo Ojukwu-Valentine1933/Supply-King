@@ -1,0 +1,65 @@
+.token {
+    width: 20px;
+    height: 20px;
+}
+.navbar{
+    background-color: #b22222;
+}
+.bottom_navbar{
+    background-color: #b22222;
+}
+.bottom_navbar i{
+    color: white;
+    font-size: 20px;
+
+}
+.bottom_navbar button{
+    background-color: #b22222;
+    border: 1px solid #b22222;
+    border-radius: 5px;
+    height: 40px;
+    width: 50px;
+}
+.bottom_navbar button:hover{
+    background-color: #cd5c5c;
+    color: white !important;
+}
+.plus{
+    width: 50px !important;
+    height: 50px !important;
+}
+.plus i{
+    font-size: 30px;
+    color: white;
+}
+
+
+
+.token_div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #b22222;
+    background-color: #cd5c5c;
+}
+
+.cart {
+    width: 25px;
+    height: 25px;
+}
+
+.cart_div {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 55px;
+    height: 30px;
+    /* border-radius: 30px; */
+    border: 1px solid #b22222;
+    background-color: #cd5c5c;
+    border-radius: 10px;
+}
+
