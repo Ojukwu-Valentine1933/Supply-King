@@ -26,6 +26,11 @@ const OrderComponent = () => {
           </select>
         </div>
         <div>
+          <label
+            style={{ fontSize: "10px", color: "#b22222", fontWeight: "600" }}
+          >
+            upload the item image by clicking the choose file box below!
+          </label>
           <PictureUpload />
         </div>
         <div>
@@ -46,7 +51,7 @@ const OrderComponent = () => {
           </div>
           <div>
             <div>
-              <h5 className={`text-center mt-5 ${styles.h5}`} >
+              <h5 className={`text-center mt-5 ${styles.h5}`}>
                 Physical Properties (optional)
               </h5>
             </div>
@@ -68,7 +73,9 @@ const OrderComponent = () => {
             </div>
           </div>
           <div className={`personal information ${styles.personalInformation}`}>
-            <div className={`${styles.h5}`}><h5>Delivery Details     (compulsory)</h5></div>
+            <div className={`${styles.h5}`}>
+              <h5>Delivery Details (compulsory)</h5>
+            </div>
             <label>Customer Name: </label>
             <input className={`form-control ${styles.input}`} type="text" />
             <label>WhatsApp Number: </label>
@@ -78,17 +85,18 @@ const OrderComponent = () => {
             <label>Delivery Location: </label>
             <input className={`form-control ${styles.input}`} type="text" />
             <label>Item Description: </label>
-            <textarea className={`form-control ${styles.text_area}`} placeholder="Here, you can provide detailed information about your request, such as the item quantity, color, and any other details you consider important."/>
-
+            <textarea
+              className={`form-control ${styles.text_area}`}
+              placeholder="Here, you can provide detailed information about your request, such as the item quantity, color, and any other details you consider important."
+            />
           </div>
         </div>
         <div className="mt-4">
-          <button className={`btn btn-primary form-control ${styles.btn}`}>PLACE ORDER</button>
-          </div>
-          {/* <aside><strong>NB:</strong> Orders placed are currently pending and under review. We will notify you once the availabilty is confirmed!!!</aside> */}
-
-
-
+          <button className={`btn btn-primary form-control ${styles.btn}`}>
+            PLACE ORDER
+          </button>
+        </div>
+        {/* <aside><strong>NB:</strong> Orders placed are currently pending and under review. We will notify you once the availabilty is confirmed!!!</aside> */}
       </form>
     </div>
   );

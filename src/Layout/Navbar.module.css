@@ -13,7 +13,7 @@
     font-size: 20px;
 
 }
-.bottom_navbar button{
+.bottom_navbar Link{
     background-color: #b22222;
     border: 1px solid #b22222;
     border-radius: 5px;
@@ -28,8 +28,8 @@
     width: 50px !important;
     height: 50px !important;
 }
-.plus i{
-    font-size: 30px;
+ .i{
+    font-size: 25px !important;
     color: white;
 }
 

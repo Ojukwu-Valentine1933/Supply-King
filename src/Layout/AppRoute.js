@@ -6,6 +6,7 @@ import OrderPage from "../pages/AllRoundPages/OrderPage";
 import LoginSuccessPage from "../pages/SuccessPages/LoginSuccessPage";
 import SignupSuccessPage from "../pages/SuccessPages/SignupSuccessPage";
 import LoginPage from "../pages/AuthPages/LoginPage";
+import CheckoutPage from "../pages/AllRoundPages/CheckoutPage";
 
 const AppRoutes = () => {
 
@@ -18,6 +19,7 @@ const AppRoutes = () => {
       <Route path="/loginsuccess" element={<LoginSuccessPage/>}/>
       <Route path="/signupsuccess" element={<SignupSuccessPage/>}/>
       <Route path="/auth/login" element={<LoginPage/>}/>
+      <Route path="/checkout" element={<CheckoutPage/>}/>
     </Routes>
   );
 };

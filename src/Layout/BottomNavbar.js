@@ -1,34 +1,31 @@
-import styles from "./Navbar.module.css"
-
+import styles from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const BottomNavbar = () => {
   return (
     <nav className={`navbar fixed-bottom ${styles.bottom_navbar} mt-5`}>
       <div className={`container-fluid`}>
-      <button>
-        <i class="bi bi-house-door-fill"></i>
-        </button>
-        <button>
-        <i class="bi bi-clipboard-check"></i>
-        </button>
-       
-       
-       <button className={`${styles.plus}`}
-        >
-          
-        <i class="bi bi-plus-square-fill"></i>
-        </button>
-       
-       
-        <button>
-        <i class="bi bi-star-fill"></i>
-        </button>
-        <button onclick="this.classList.toggle('active')">
-        <i class="bi bi-shop-window"></i>
-        </button>
+        <Link>
+          <i className={`bi bi-house-door-fill ${styles.i}`}></i>
+        </Link>
+
+        <Link>
+          <i className={`bi bi-clipboard-check ${styles.i}`} ></i>
+        </Link>
+
+        <Link to="/dashboard/order" className={``}>
+          <i className={`bi bi-plus-square-fill ${styles.i}`}></i>
+        </Link>
+        <Link>
+          <i className={`bi bi-star-fill ${styles.i}`}></i>
+        </Link>
+
+        <Link>
+          <i className={`bi bi-shop-window ${styles.i}`}></i>
+        </Link>
       </div>
     </nav>
   );
 };
 
-export default BottomNavbar
+export default BottomNavbar;
