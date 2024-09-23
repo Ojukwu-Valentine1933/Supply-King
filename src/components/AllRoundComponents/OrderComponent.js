@@ -3,6 +3,10 @@ import categories from "../../helpers/categories";
 import PictureUpload from "../../helpers/PictureUpload";
 
 const OrderComponent = () => {
+
+  const storeOrderDetails = {
+     
+  }
   return (
     <div className={`container ${styles.order_div}`}>
       <h1 className="mt-5 text-center">Order</h1>
@@ -26,7 +30,7 @@ const OrderComponent = () => {
           </select>
         </div>
         <div>
-          <label
+          <label className="mt-4"
             style={{ fontSize: "10px", color: "#b22222", fontWeight: "600" }}
           >
             upload the item image by clicking the choose file box below!
@@ -82,8 +86,8 @@ const OrderComponent = () => {
             <input className={`form-control ${styles.input}`} type="email" />
             <label>Phone Number: </label>
             <input className={`form-control ${styles.input}`} type="number" />
-            <label>Delivery Location: </label>
-            <input className={`form-control ${styles.input}`} type="text" />
+            <label>Delivery Address: </label>
+            <input className={`form-control ${styles.input}`} type="text" placeholder="eg. No. 2 Stanely Street, GRA, Onitsha, Anambra State."/>
             <label>Item Description: </label>
             <textarea
               className={`form-control ${styles.text_area}`}
