@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "manifest-image.png",
+      "src": "app-icon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
