@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "app-icon.png",
+      "src": "manifest-image.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "manifest-image.png",
+      "src": "app-icon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
