@@ -19,7 +19,7 @@ const AppRoutes = () => {
       <Route path="/loginsuccess" element={<LoginSuccessPage />} />
       <Route path="/signupsuccess" element={<SignupSuccessPage />} />
       <Route path="/auth/login" element={<LoginPage />} />
-      <Route path="/pending" element={<CheckoutPage />} />
+      <Route path="/dashboard/pending" element={<CheckoutPage />} />
       <Route path="/payment" element={<PaymentPage />} />
     </Routes>
   );

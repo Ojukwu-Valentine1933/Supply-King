@@ -65,7 +65,7 @@ const CustomerDashBoard = () => {
               </div>
             </div>
             <div className="col-6 col-sm-3 mb-3">
-              <Link to={"/pending"} style={{textDecoration: "none"}}>
+              <Link to={"/dashboard/pending"} style={{textDecoration: "none"}}>
                 <div className={`card ${styles.card}`}>
                   <div className={`card-body ${styles.card_body}`}>
                     <p>Pending</p>

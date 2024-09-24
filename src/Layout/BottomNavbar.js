@@ -5,7 +5,7 @@ const BottomNavbar = () => {
   return (
     <nav className={`navbar fixed-bottom ${styles.bottom_navbar} mt-5`}>
       <div className={`container-fluid`}>
-        <Link>
+        <Link to={"/dashboard"}>
           <i className={`bi bi-house-door-fill ${styles.i}`}></i>
         </Link>
 

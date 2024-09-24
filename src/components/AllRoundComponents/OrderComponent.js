@@ -52,7 +52,7 @@ const OrderComponent = () => {
 
   const handleModalClose = () => {
     setShowModal(false);
-    navigate('/pending');
+    navigate('/dashboard/pending');
   };
 
   return (
@@ -144,7 +144,7 @@ const OrderComponent = () => {
         </div>
 
         <div className={`${styles.personalInformation}`}>
-          <h5>Delivery Details (compulsory)</h5>
+          <h5 className={`text-center mt-5 ${styles.h5}`}>Delivery Details (compulsory)</h5>
           <label>Customer Name:</label>
           <input
             type="text"
