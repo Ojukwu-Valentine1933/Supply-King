@@ -79,7 +79,7 @@ form input {
   background-color: #f5f5f5 !important;
 }
 form input::placeholder {
-  color: #b22222 !important;
+  color: #b22222 ;
 }
 
 .have-account {
