@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import styles from "./Checkout.module.css"
 
 const CheckoutPage = () => {
   const [orders, setOrders] = useState([]);
@@ -18,7 +19,7 @@ const CheckoutPage = () => {
   };
 
   return (
-    <div className="container mt-5">
+    <div className={`container mt-5 mb-5 checkout-div ${styles.checkout_container}`}>
       <h1 className="text-center">Pending Orders</h1>
       {orders.length === 0 ? (
         <p>No orders are currently under review.</p>
