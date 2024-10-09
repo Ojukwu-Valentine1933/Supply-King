@@ -31,7 +31,6 @@ const InstallPrompt = () => {
         }
     };
 
-    // Check if the prompt should be shown
     useEffect(() => {
         if (localStorage.getItem('installPromptDismissed')) {
             setShowPrompt(false);
@@ -40,39 +39,50 @@ const InstallPrompt = () => {
 
     return (
         showPrompt && (
-            <div style={styles.prompt}>
-                <p style={styles.message}>Install Supply Master for a better experience!</p>
-                <button style={styles.button} onClick={handleInstallClick}>Install Now</button>
+            <div style={styles.modal}>
+                <div style={styles.modalContent}>
+                    <h2 style={styles.title}>Install Supply Master for a better experience!</h2>
+                    <button style={styles.installButton} onClick={handleInstallClick}>
+                        Install Now
+                    </button>
+                </div>
             </div>
         )
     );
 };
 
 const styles = {
-    prompt: {
+    modal: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
         position: 'fixed',
-        bottom: '20px',
-        right: '20px',
-        backgroundColor: '#f39c12',
-        padding: '20px',
-        borderRadius: '5px',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Semi-transparent background
         zIndex: 1000,
     },
-    message: {
-        fontSize: '18px',
-        fontWeight: 'bold',
-        color: '#fff',
-        margin: '0 0 10px 0',
+    modalContent: {
+        backgroundColor: 'white',
+        borderRadius: '8px',
+        padding: '20px',
+        textAlign: 'center',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
     },
-    button: {
+    title: {
+        color: 'black',
+        marginBottom: '20px',
+    },
+    installButton: {
         fontSize: '16px',
         padding: '10px 20px',
         fontWeight: 'bold',
-        backgroundColor: '#28a745',
+        backgroundColor: '#b22222', // Your specified button color
         color: 'white',
         border: 'none',
-        borderRadius: '3px',
+        borderRadius: '5px',
         cursor: 'pointer',
     },
 };
