@@ -41,7 +41,7 @@ const InstallPrompt = () => {
         showPrompt && (
             <div style={styles.modal}>
                 <div style={styles.modalContent}>
-                    <h2 style={styles.title}>Install Supply Master for a better experience!</h2>
+                    <h2 style={styles.title}>Install Vego Supplies for a better experience!</h2>
                     <button style={styles.installButton} onClick={handleInstallClick}>
                         Install Now
                     </button>
