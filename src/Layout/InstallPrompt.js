@@ -63,6 +63,7 @@ const styles = {
         bottom: 0,
         backgroundColor: 'rgba(0, 0, 0, 0.5)', // Semi-transparent background
         zIndex: 1000,
+        marginTop: "10px 0 10px 0"
     },
     modalContent: {
         backgroundColor: 'white',
