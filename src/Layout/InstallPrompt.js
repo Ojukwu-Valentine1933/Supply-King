@@ -63,7 +63,7 @@ const styles = {
         bottom: 0,
         backgroundColor: 'rgba(0, 0, 0, 0.5)', // Semi-transparent background
         zIndex: 1000,
-        marginTop: "0px 10px 0px 10px"
+        
     },
     modalContent: {
         backgroundColor: 'white',
@@ -71,6 +71,7 @@ const styles = {
         padding: '20px',
         textAlign: 'center',
         boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+        margin: "0px 10px 0px 10px"
     },
     title: {
         color: 'black',

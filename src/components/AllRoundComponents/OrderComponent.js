@@ -214,7 +214,7 @@ const OrderComponent = () => {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" onClick={handleModalClose}>
-            Go to Checkout
+            Go to Pending
           </Button>
         </Modal.Footer>
       </Modal>
