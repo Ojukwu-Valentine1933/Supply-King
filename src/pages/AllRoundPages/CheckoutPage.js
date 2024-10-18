@@ -1,5 +1,4 @@
-import CheckoutComponent from "../../components/AllRoundComponents/CheckoutComponent";
-
+import CheckoutComponent from "../../components/AllRoundComponents/checkout/CheckoutComponent";
 const CheckoutPage = () => {
     return (
         <div>

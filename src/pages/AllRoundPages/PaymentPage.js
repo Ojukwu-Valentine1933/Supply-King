@@ -1,4 +1,4 @@
-import Payment from "../../components/AllRoundComponents/PaymentComponent"
+import Payment from "../../components/AllRoundComponents/payment/PaymentComponent"
 
 const PaymentPage = () => {
     return(

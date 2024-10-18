@@ -1,10 +1,10 @@
 import Lottie from "lottie-react";
-import smiler from "../../assets/smiler- 1725289338860.json";
+import smiler from "../../../assets/smiler- 1725289338860.json";
 import styles from "./CustomerDashboard.module.css";
-import history from "../../assets/history- 1725300180101.json";
-import discount from "../../assets/discount- 1725303211975.json";
-import categories from "../../assets/category-animation - 1725317366321.json";
-import pending from "../../assets/hourglass- 1725319522561.json";
+import history from "../../../assets/history- 1725300180101.json";
+import discount from "../../../assets/discount- 1725303211975.json";
+import categories from "../../../assets/category-animation - 1725317366321.json";
+import pending from "../../../assets/hourglass- 1725319522561.json";
 import { Link } from "react-router-dom";
 const CustomerDashBoard = () => {
   return (
@@ -41,6 +41,7 @@ const CustomerDashBoard = () => {
               </div>
             </div>
             <div className={`col-6 col-sm-3 mb-3`}>
+            <Link to={"/dashboard/marketplace"} style={{textDecoration: "none"}}>
               <div className={`card ${styles.card}`}>
                 <div className={`card-body ${styles.card_body}`}>
                   <p> Discounts</p>
@@ -51,6 +52,7 @@ const CustomerDashBoard = () => {
                   />
                 </div>
               </div>
+              </Link>
             </div>
             <div className="col-6 col-sm-3 mb-3">
               <div className={`card ${styles.card}`}>

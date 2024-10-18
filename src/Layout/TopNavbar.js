@@ -9,7 +9,7 @@ const TopNavbar = () => {
     <nav className={`navbar navbar-expand-lg fixed-top  navbar-light ${styles.navbar}`}>
       <div className="container-fluid">
         <a className="navbar-brand text-white" href="home">
-          Supply King
+          Vego Supply
         </a>
   
         <div className="d-flex ms-auto">

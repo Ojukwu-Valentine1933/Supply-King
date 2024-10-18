@@ -1,4 +1,4 @@
-import CategoriesComponent from "../../components/AllRoundComponents/CategoriesComponent"
+import CategoriesComponent from "../../components/AllRoundComponents/categories/CategoriesComponent"
 
 const CategoryPage = () => {
 return(

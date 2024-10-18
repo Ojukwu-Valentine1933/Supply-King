@@ -1,4 +1,4 @@
-import CustomerDashBoard from "../../components/AllRoundComponents/CustomerDashBoard";
+import CustomerDashBoard from "../../components/AllRoundComponents/dashboard/CustomerDashBoard";
 
 const CustomerDashBoardPage = () => {
     return (

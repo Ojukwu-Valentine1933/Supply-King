@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.category_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.category_container h3 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  color: #b22222;
+  margin-top: 10px;
+}
+
+.select_category {
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-bottom: 2px solid #b22222;
+  background-color: #f9f9f9;
+  color: #cd5c5c;
+}

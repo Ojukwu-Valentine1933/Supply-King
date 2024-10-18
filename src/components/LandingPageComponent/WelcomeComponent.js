@@ -135,7 +135,7 @@ const WelcomeComponent = () => {
                       />
                     </div>
                     <div className="form-group">
-                      <Link to={"signupsuccess"}>
+                      <Link to={"/signupsuccess"}>
                         <button
                           type="submit"
                           className="btn btn-primary form-control"

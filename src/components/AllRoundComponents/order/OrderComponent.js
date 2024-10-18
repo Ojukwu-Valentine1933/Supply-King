@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from "./OrderComponent.module.css";
-import categories from "../../helpers/categories";
-import PictureUpload from "../../helpers/PictureUpload";
+import categories from "../../../helpers/categories";
+import PictureUpload from "../../../helpers/PictureUpload";
 import { Modal, Button } from 'react-bootstrap';
 
 const OrderComponent = () => {

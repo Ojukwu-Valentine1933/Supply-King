@@ -1,0 +1,7 @@
+.heroBackground{
+    background: url("../../assets/mummy-one.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}

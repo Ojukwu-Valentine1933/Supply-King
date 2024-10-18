@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Checkout.module.css"
 
-const CheckoutPage = () => {
+const CheckoutComponent = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
@@ -76,4 +76,4 @@ const CheckoutPage = () => {
   );
 };
 
-export default CheckoutPage;
+export default CheckoutComponent;

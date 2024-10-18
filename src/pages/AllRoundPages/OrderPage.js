@@ -1,4 +1,4 @@
-import OrderComponent from "../../components/AllRoundComponents/OrderComponent";
+import OrderComponent from "../../components/AllRoundComponents/order/OrderComponent"
 
 
 const OrderPage = () => {

@@ -8,11 +8,14 @@ import SignupSuccessPage from "../pages/SuccessPages/SignupSuccessPage";
 import LoginPage from "../pages/AuthPages/LoginPage";
 import CheckoutPage from "../pages/AllRoundPages/CheckoutPage";
 import PaymentPage from "../pages/AllRoundPages/PaymentPage";
+import HeroScreenPage from "../pages/WelcomePages/HeroScreenPage";
+import MarketPlacePage from "../pages/AllRoundPages/MarketPlacePage";
+
 
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Welcomepage />} />
+      <Route path="/welcome" element={<Welcomepage />} />
       <Route path="/categories" element={<CategoryPage />} />
       <Route path="/dashboard" element={<CustomerDashBoardPage />} />
       <Route path="dashboard/order" element={<OrderPage />} />
@@ -21,6 +24,8 @@ const AppRoutes = () => {
       <Route path="/auth/login" element={<LoginPage />} />
       <Route path="/dashboard/pending" element={<CheckoutPage />} />
       <Route path="/payment" element={<PaymentPage />} />
+      <Route path="/hero" element={<HeroScreenPage/>} />
+      <Route path="/dashboard/marketplace" element={<MarketPlacePage />} />
     </Routes>
   );
 };
