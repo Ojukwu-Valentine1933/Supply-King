@@ -1,0 +1,17 @@
+.card {
+  border-radius: 25px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  width: 100%;
+  height: auto;
+  background-color: #fff; /* Card background */
+  transition: transform 0.3s ease; /* Smooth transform on hover */
+}
+
+.carousel{
+  border-radius: 25px !important;
+}
+.card:hover {
+  transform: scale(1.05); /* Slight scale on hover to give a more bulging effect */
+}
+
+  
