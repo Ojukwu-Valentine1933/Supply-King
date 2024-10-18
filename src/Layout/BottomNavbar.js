@@ -20,7 +20,7 @@ const BottomNavbar = () => {
           <i className={`bi bi-star-fill ${styles.i}`}></i>
         </Link>
 
-        <Link>
+        <Link to={"/dashboard/marketplace"}>
           <i className={`bi bi-shop-window ${styles.i}`}></i>
         </Link>
       </div>

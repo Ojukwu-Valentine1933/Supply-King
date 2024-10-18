@@ -41,7 +41,7 @@ const CustomerDashBoard = () => {
               </div>
             </div>
             <div className={`col-6 col-sm-3 mb-3`}>
-            <Link to={"/dashboard/marketplace"} style={{textDecoration: "none"}}>
+            <Link to={""} style={{textDecoration: "none"}}>
               <div className={`card ${styles.card}`}>
                 <div className={`card-body ${styles.card_body}`}>
                   <p> Discounts</p>
